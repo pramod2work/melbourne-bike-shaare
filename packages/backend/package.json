@@ -1,0 +1,21 @@
+{
+  "name": "bike-share-backend",
+  "version": "1.0.0",
+  "description": "Bike Share GraphQL Backend",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/app.js"
+  },
+  "author": "PLEASE_ENTER_YOUR_NAME",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "fast-csv": "2.4.1",
+    "graphql": "^14.1.1",
+    "lodash": "^4.17.11"
+  }
+}
