@@ -17,5 +17,8 @@
     "fast-csv": "2.4.1",
     "graphql": "^14.1.1",
     "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "apollo-server-testing": "^2.4.8"
   }
 }

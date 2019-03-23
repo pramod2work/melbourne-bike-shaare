@@ -12,7 +12,7 @@ import { client } from './client/client';
 // best practice for handling this moving forward.
 const GOOGLE_MAPS_API_KEY = 'AIzaSyA5h0z-FzGsYNo9ZLDDPe7nyMarIBPmy6w';
 
-class App extends Component {
+export class App extends Component {
   state = { loading: true, data: [], filterBy: 'availableBikes' }
 
   componentDidMount () {
