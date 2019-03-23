@@ -1,0 +1,745 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check for mutation 1`] = `
+Object {
+  "data": Object {
+    "updateBookmark": Object {
+      "bookmarked": true,
+      "location": Object {
+        "lat": -37.809216,
+        "lng": 144.955223,
+      },
+      "name": "Flagstaff Gardens - Peel St - West Melbourne",
+      "stationId": "52",
+      "status": Object {
+        "availableBikes": 2,
+        "capacity": 11,
+        "emptyDocks": 9,
+      },
+    },
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
+
+exports[`Check for query schema 1`] = `
+Object {
+  "data": Object {
+    "bikeStations": Array [
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.809216,
+          "lng": 144.955223,
+        },
+        "name": "Flagstaff Gardens - Peel St - West Melbourne",
+        "stationId": "52",
+        "status": Object {
+          "availableBikes": 2,
+          "capacity": 11,
+          "emptyDocks": 9,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.823805,
+          "lng": 144.943051,
+        },
+        "name": "Yarra's Point - Lorimer St / Yarra River - Docklands",
+        "stationId": "17",
+        "status": Object {
+          "availableBikes": 8,
+          "capacity": 15,
+          "emptyDocks": 7,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.820836,
+          "lng": 144.962266,
+        },
+        "name": "Sandridge Bridge - Southbank",
+        "stationId": "25",
+        "status": Object {
+          "availableBikes": 5,
+          "capacity": 27,
+          "emptyDocks": 22,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.822962,
+          "lng": 144.988507,
+        },
+        "name": "Richmond Station - Brunton Ave - East Melbourne",
+        "stationId": "39",
+        "status": Object {
+          "availableBikes": 7,
+          "capacity": 19,
+          "emptyDocks": 12,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.802129,
+          "lng": 144.96677,
+        },
+        "name": "Argyle Square - Lygon St - Carlton",
+        "stationId": "18",
+        "status": Object {
+          "availableBikes": 2,
+          "capacity": 11,
+          "emptyDocks": 9,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.800214,
+          "lng": 144.960313,
+        },
+        "name": "University Square - Grattan St - Carlton",
+        "stationId": "37",
+        "status": Object {
+          "availableBikes": 3,
+          "capacity": 11,
+          "emptyDocks": 8,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.816731,
+          "lng": 144.982006,
+        },
+        "name": "Jolimont Station - Wellington Pde South - East Melbourne",
+        "stationId": "49",
+        "status": Object {
+          "availableBikes": 5,
+          "capacity": 11,
+          "emptyDocks": 6,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.826578,
+          "lng": 144.966542,
+        },
+        "name": "ACCA - Sturt St - Southbank",
+        "stationId": "50",
+        "status": Object {
+          "availableBikes": 6,
+          "capacity": 23,
+          "emptyDocks": 17,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.824088,
+          "lng": 144.970085,
+        },
+        "name": "VCAM - St Kilda Rd / Southbank Blvd - Southbank",
+        "stationId": "47",
+        "status": Object {
+          "availableBikes": 4,
+          "capacity": 11,
+          "emptyDocks": 7,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.81523,
+          "lng": 144.95973100000003,
+        },
+        "name": "RACV - Bourke St / New Chancery Ln - City",
+        "stationId": "34",
+        "status": Object {
+          "availableBikes": 4,
+          "capacity": 11,
+          "emptyDocks": 7,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.807021,
+          "lng": 144.941854,
+        },
+        "name": "North Melbourne Station - Adderley St - North Melbourne",
+        "stationId": "24",
+        "status": Object {
+          "availableBikes": 10,
+          "capacity": 19,
+          "emptyDocks": 9,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.821568,
+          "lng": 144.944488,
+        },
+        "name": "ANZ - Collins St - Docklands",
+        "stationId": "51",
+        "status": Object {
+          "availableBikes": 3,
+          "capacity": 19,
+          "emptyDocks": 16,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.818124,
+          "lng": 144.953581,
+        },
+        "name": "Southern Cross Station - Spencer St - City",
+        "stationId": "29",
+        "status": Object {
+          "availableBikes": 20,
+          "capacity": 27,
+          "emptyDocks": 7,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.79625,
+          "lng": 144.960858,
+        },
+        "name": "Melbourne Uni - Tin Alley - Carlton",
+        "stationId": "8",
+        "status": Object {
+          "availableBikes": 3,
+          "capacity": 7,
+          "emptyDocks": 4,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.858655,
+          "lng": 144.978818,
+        },
+        "name": "Fitzroy Street - St Kilda",
+        "stationId": "57",
+        "status": Object {
+          "availableBikes": 15,
+          "capacity": 31,
+          "emptyDocks": 16,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.808266,
+          "lng": 144.979005,
+        },
+        "name": "Napier St / Victoria Pde - Fitzroy",
+        "stationId": "36",
+        "status": Object {
+          "availableBikes": 8,
+          "capacity": 11,
+          "emptyDocks": 3,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.832396,
+          "lng": 144.971678,
+        },
+        "name": "Domain Interchange - Park St / St Kilda Rd - Melbourne",
+        "stationId": "41",
+        "status": Object {
+          "availableBikes": 8,
+          "capacity": 15,
+          "emptyDocks": 7,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.831475,
+          "lng": 144.957511,
+        },
+        "name": "South Melbourne Market - York St / Cecil St - South Melbourne",
+        "stationId": "46",
+        "status": Object {
+          "availableBikes": 13,
+          "capacity": 15,
+          "emptyDocks": 2,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.805997,
+          "lng": 144.986953,
+        },
+        "name": "Yorkshire Brewery - Wellington St - Collingwood",
+        "stationId": "35",
+        "status": Object {
+          "availableBikes": 2,
+          "capacity": 7,
+          "emptyDocks": 5,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.842174,
+          "lng": 144.946051,
+        },
+        "name": "Gasworks Arts Park - Pickles St - Albert Park",
+        "stationId": "30",
+        "status": Object {
+          "availableBikes": 7,
+          "capacity": 11,
+          "emptyDocks": 4,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.821324,
+          "lng": 144.958318,
+        },
+        "name": "Aquarium - Kings Way / Flinders St - City",
+        "stationId": "38",
+        "status": Object {
+          "availableBikes": 1,
+          "capacity": 11,
+          "emptyDocks": 10,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.809072,
+          "lng": 144.972762,
+        },
+        "name": "Parliament Station - Nicholson St / Albert St - City",
+        "stationId": "20",
+        "status": Object {
+          "availableBikes": 8,
+          "capacity": 15,
+          "emptyDocks": 7,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.814022,
+          "lng": 144.939521,
+        },
+        "name": "Harbour Town - Docklands Dve - Docklands",
+        "stationId": "2",
+        "status": Object {
+          "availableBikes": 9,
+          "capacity": 23,
+          "emptyDocks": 14,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.836323,
+          "lng": 144.975162,
+        },
+        "name": "Kings Way / St Kilda Rd - Melbourne",
+        "stationId": "42",
+        "status": Object {
+          "availableBikes": 15,
+          "capacity": 27,
+          "emptyDocks": 11,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.817189,
+          "lng": 144.967409,
+        },
+        "name": "St Paul's Cathedral - Swanston St / Flinders St - City",
+        "stationId": "10",
+        "status": Object {
+          "availableBikes": 6,
+          "capacity": 11,
+          "emptyDocks": 5,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.813774,
+          "lng": 144.974054,
+        },
+        "name": "Spring St / Collins St - City",
+        "stationId": "43",
+        "status": Object {
+          "availableBikes": 2,
+          "capacity": 11,
+          "emptyDocks": 9,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.840885,
+          "lng": 144.955303,
+        },
+        "name": "Bridport St / Montague St - Albert Park",
+        "stationId": "21",
+        "status": Object {
+          "availableBikes": 6,
+          "capacity": 23,
+          "emptyDocks": 17,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.801813,
+          "lng": 144.979209,
+        },
+        "name": "Fitzroy Town Hall - Moor St - Fitzroy",
+        "stationId": "12",
+        "status": Object {
+          "availableBikes": 11,
+          "capacity": 11,
+          "emptyDocks": 0,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.807699,
+          "lng": 144.963095,
+        },
+        "name": "RMIT - Swanston St / Franklin St - City",
+        "stationId": "9",
+        "status": Object {
+          "availableBikes": 5,
+          "capacity": 11,
+          "emptyDocks": 6,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.841954,
+          "lng": 144.935296,
+        },
+        "name": "Beach St - Port Melbourne",
+        "stationId": "26",
+        "status": Object {
+          "availableBikes": 16,
+          "capacity": 37,
+          "emptyDocks": 20,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.814117,
+          "lng": 144.944081,
+        },
+        "name": "New Quay Prom / Harbour Esp - Docklands",
+        "stationId": "27",
+        "status": Object {
+          "availableBikes": 2,
+          "capacity": 27,
+          "emptyDocks": 25,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.835803,
+          "lng": 144.94852,
+        },
+        "name": "Pickles St / Ingles St - Port Melbourne",
+        "stationId": "22",
+        "status": Object {
+          "availableBikes": 5,
+          "capacity": 23,
+          "emptyDocks": 18,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.824468,
+          "lng": 144.946033,
+        },
+        "name": "Yarra's Edge - River Esp / Yarra River - Docklands",
+        "stationId": "23",
+        "status": Object {
+          "availableBikes": 11,
+          "capacity": 11,
+          "emptyDocks": 0,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.821071,
+          "lng": 144.961113,
+        },
+        "name": "Queensbridge St / Yarra River - Southbank",
+        "stationId": "28",
+        "status": Object {
+          "availableBikes": 16,
+          "capacity": 19,
+          "emptyDocks": 3,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.803868,
+          "lng": 144.969609,
+        },
+        "name": "Museum - Rathdowne St - Carlton",
+        "stationId": "48",
+        "status": Object {
+          "availableBikes": 3,
+          "capacity": 15,
+          "emptyDocks": 12,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.806091,
+          "lng": 144.959017,
+        },
+        "name": "Victoria Market - Elizabeth St / Victoria St - City",
+        "stationId": "53",
+        "status": Object {
+          "availableBikes": 14,
+          "capacity": 25,
+          "emptyDocks": 11,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.842395,
+          "lng": 144.961868,
+        },
+        "name": "MSAC - Aughtie Dve - Albert Park",
+        "stationId": "11",
+        "status": Object {
+          "availableBikes": 10,
+          "capacity": 27,
+          "emptyDocks": 17,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.823124,
+          "lng": 144.951918,
+        },
+        "name": "Siddeley St / Seafarers Bridge - Docklands",
+        "stationId": "33",
+        "status": Object {
+          "availableBikes": 10,
+          "capacity": 23,
+          "emptyDocks": 13,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.835383,
+          "lng": 144.973699,
+        },
+        "name": "Queens Rd / Bowen Cres - Melbourne",
+        "stationId": "44",
+        "status": Object {
+          "availableBikes": 6,
+          "capacity": 15,
+          "emptyDocks": 9,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.82071559401317,
+          "lng": 144.96916472911835,
+        },
+        "name": "Arts Centre - St Kilda Road - City",
+        "stationId": "4",
+        "status": Object {
+          "availableBikes": 7,
+          "capacity": 15,
+          "emptyDocks": 8,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.822987,
+          "lng": 144.978459,
+        },
+        "name": "Rod Laver Arena - Batman Ave / Swan St - City",
+        "stationId": "40",
+        "status": Object {
+          "availableBikes": 9,
+          "capacity": 23,
+          "emptyDocks": 14,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.867068,
+          "lng": 144.976428,
+        },
+        "name": "Luna Park - Lower Esp - St Kilda",
+        "stationId": "45",
+        "status": Object {
+          "availableBikes": 24,
+          "capacity": 39,
+          "emptyDocks": 14,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.831776,
+          "lng": 144.960818,
+        },
+        "name": "Coventry St / Clarendon St - South Melbourne",
+        "stationId": "55",
+        "status": Object {
+          "availableBikes": 0,
+          "capacity": 11,
+          "emptyDocks": 11,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.858553,
+          "lng": 144.969101,
+        },
+        "name": "West Beach Pavilion - Beaconsfield Pde - St Kilda West",
+        "stationId": "32",
+        "status": Object {
+          "availableBikes": 8,
+          "capacity": 15,
+          "emptyDocks": 7,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.813088,
+          "lng": 144.967437,
+        },
+        "name": "Bourke Street Mall - 205 Bourke St - City",
+        "stationId": "7",
+        "status": Object {
+          "availableBikes": 9,
+          "capacity": 11,
+          "emptyDocks": 2,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.818306,
+          "lng": 144.945923,
+        },
+        "name": "NAB - Harbour Esp / Bourke St - Docklands",
+        "stationId": "16",
+        "status": Object {
+          "availableBikes": 13,
+          "capacity": 33,
+          "emptyDocks": 20,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.847795,
+          "lng": 144.948351,
+        },
+        "name": "Plum Garland Reserve - Beaconsfield Pde - Albert Park",
+        "stationId": "14",
+        "status": Object {
+          "availableBikes": 11,
+          "capacity": 19,
+          "emptyDocks": 8,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.810702,
+          "lng": 144.964417,
+        },
+        "name": "State Library - Swanston St / Little Lonsdale St - City",
+        "stationId": "6",
+        "status": Object {
+          "availableBikes": 6,
+          "capacity": 11,
+          "emptyDocks": 5,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.828887,
+          "lng": 144.970822,
+        },
+        "name": "Vic Barracks - Coventry St / St Kilda Rd - Southbank",
+        "stationId": "15",
+        "status": Object {
+          "availableBikes": 2,
+          "capacity": 11,
+          "emptyDocks": 9,
+        },
+      },
+      Object {
+        "bookmarked": null,
+        "location": Object {
+          "lat": -37.861984,
+          "lng": 144.97341,
+        },
+        "name": "Cleve Gardens - Fitzroy St - St Kilda",
+        "stationId": "31",
+        "status": Object {
+          "availableBikes": 10,
+          "capacity": 15,
+          "emptyDocks": 5,
+        },
+      },
+    ],
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;

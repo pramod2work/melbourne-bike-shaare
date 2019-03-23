@@ -4,7 +4,7 @@
   "description": "Bike Share GraphQL Backend",
   "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": "node src/app.js"
   },
   "author": "PLEASE_ENTER_YOUR_NAME",
@@ -19,6 +19,7 @@
     "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "apollo-server-testing": "^2.4.8"
+    "apollo-server-testing": "^2.4.8",
+    "jest": "^24.5.0"
   }
 }
