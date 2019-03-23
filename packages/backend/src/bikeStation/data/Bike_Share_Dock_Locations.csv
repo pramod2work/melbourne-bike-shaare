@@ -1,4 +1,4 @@
-﻿station_id,name,rental_method,capacity,lat,lon,location
+﻿station_id,name,rental_method,capacity,lat,lng,location
 52,Flagstaff Gardens - Peel St - West Melbourne,"CREDITCARD,KEY",11,-37.809216,144.955223,"(-37.809216, 144.955223)"
 17,Yarra's Point - Lorimer St / Yarra River - Docklands,"CREDITCARD,KEY",15,-37.823805,144.943051,"(-37.823805, 144.943051)"
 25,Sandridge Bridge - Southbank,"CREDITCARD,KEY",27,-37.820836,144.962266,"(-37.820836, 144.962266)"

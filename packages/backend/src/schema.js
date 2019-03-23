@@ -9,6 +9,21 @@ const typeDefs = gql`
   type BikeStation {
     stationId: ID!
     name: String!
+    location: Location
+    status: Station
+  }
+
+  # Represents Location based on lat and lng
+  type Location {
+    lat: Float!
+    lng: Float!
+  }
+
+  # Represents stations Bikes and Docks status
+  type Station {
+    availableBikes: Int
+    emptyDocks: Int
+    capacity: Int
   }
 
   # The "Query" type is the root of all GraphQL queries.
