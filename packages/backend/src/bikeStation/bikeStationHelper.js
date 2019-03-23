@@ -20,6 +20,7 @@ const loadData = async () => {
     return {
       stationId: station.station_id,
       name: station.name,
+      bookmarked: station.bookmarked,
       location: {
         lat: station.lat,
         lng: station.lng,
@@ -42,4 +43,22 @@ const getBikeStations = async () => {
   return stations;
 };
 
-module.exports = { getBikeStations };
+const updateBikeStation = async (stationId, bookmarked) => {
+  let updatedStation = null;
+  if (!stations) {
+    stations = await loadData();
+  }
+
+  stations = stations.map((station) => {
+    if (station.stationId === stationId) {
+      updatedStation = { ...station, bookmarked: !!bookmarked };
+      return updatedStation;
+    }
+
+    return station;
+  });
+
+  return updatedStation;
+};
+
+module.exports = { getBikeStations, updateBikeStation };

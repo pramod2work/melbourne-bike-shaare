@@ -1,5 +1,5 @@
 const { gql } = require('apollo-server');
-const { getBikeStations } = require('./bikeStation/bikeStationHelper');
+const { getBikeStations, updateBikeStation } = require('./bikeStation/bikeStationHelper');
 
 const typeDefs = gql`
   # This is the example "BikeStation" type. Extend it as you see fit.
@@ -9,6 +9,7 @@ const typeDefs = gql`
   type BikeStation {
     stationId: ID!
     name: String!
+    bookmarked: Boolean
     location: Location
     status: Station
   }
@@ -33,6 +34,11 @@ const typeDefs = gql`
     """
     bikeStations: [BikeStation]
   }
+
+  # Mutation to update bookmark status
+  type Mutation {
+    updateBookmark(stationId: ID!, bookmarked: Boolean): BikeStation
+  }
 `;
 
 // Resolvers define the technique for fetching the types in the schema.
@@ -40,6 +46,9 @@ const resolvers = {
   Query: {
     bikeStations: async () => getBikeStations(),
   },
+  Mutation: {
+    updateBookmark: async (parent, args) => updateBikeStation(args.stationId, args.bookmarked)
+  }
 };
 
 module.exports = { typeDefs, resolvers };
