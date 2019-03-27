@@ -10,7 +10,7 @@ import { client } from './client/client';
 // TODO: get your own google API key here - https://developers.google.com/maps/documentation/javascript/get-api-key
 // Just need to check the maps option, copy the key and paste in here and leave a comment in COMMENTS.md on what is the
 // best practice for handling this moving forward.
-const GOOGLE_MAPS_API_KEY = 'GOOGLE_API_KEY';
+const GOOGLE_MAPS_API_KEY = 'AIzaSyA5h0z-FzGsYNo9ZLDDPe7nyMarIBPmy6w';
 
 export class App extends Component {
   state = { loading: true, data: [], filterBy: 'availableBikes' }
