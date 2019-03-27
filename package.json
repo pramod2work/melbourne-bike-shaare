@@ -13,7 +13,10 @@
     "dev:client": "yarn --cwd packages/client start",
     "format": "prettier --write \"packages/**/*.{js,jsx,ts,tsx,json,css,md,html,graphql}\"",
     "postinstall": "npm-run-all postinstall:*",
-    "postinstall:husky": "node node_modules/husky/lib/installer/bin install"
+    "postinstall:husky": "node node_modules/husky/lib/installer/bin install",
+    "test": "run-s -c test:*",
+    "test:backend": "yarn --cwd packages/backend test",
+    "test:client": "yarn --cwd packages/client test"
   },
   "devDependencies": {
     "commitizen": "^3.0.7",

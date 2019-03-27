@@ -19,7 +19,7 @@
     "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "apollo-server-testing": "^2.4.8",
-    "jest": "^24.5.0"
+    "jest": "^23.6.0",
+    "apollo-server-testing": "^2.4.8"
   }
 }
